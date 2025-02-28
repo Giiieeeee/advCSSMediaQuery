@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[Red] Mobile Devices: 319px — 480px
+[Blue] iPads and Tablets: 481px — 1200px
+[green] Laptops: 1201px — 1600px
+[purple] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+
+  <style>
+    body {
+      background-color: White;
+    }
+    @media (max-width: 1601px) {
+      body {
+        background-color: purple;
+      }
+    }
+    @media (max-width: 1201px) {
+      body {
+        background-color: green;
+      }
+    }
+    @media (max-width: 481px) {
+      body {
+        background-color: Blue;
+      }
+    }
+    @media (max-width: 319px) {
+      body {
+        background-color: Red;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+</body>
+
+</html>
